@@ -1,0 +1,16 @@
+fastapi==0.111.1
+uvicorn==0.30.3
+pydantic==2.7.4
+
+# Match training-time versions for pickle compatibility.
+scikit-learn==1.6.1
+joblib==1.4.2
+
+# Model/runtime deps
+numpy==2.2.6
+pandas==2.2.3
+xgboost==3.2.0
+
+# Optional (only needed if you actually use them in code)
+python-dotenv==1.0.1
+openai==1.37.0

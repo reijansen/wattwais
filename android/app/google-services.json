@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "592369729548",
+    "project_id": "wattwais",
+    "storage_bucket": "wattwais.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592369729548:android:981e4df31c320149636e29",
+        "android_client_info": {
+          "package_name": "com.example.wattwais"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqnTHa_aExAkiZlT8gIkU5G-FJjYLtCuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

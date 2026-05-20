@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: wattwais-backend
+    env: python
+    rootDir: wattwais-backend
+    plan: free
+    buildCommand: pip install -r requirements-render.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /
+    envVars:
+      - key: ENV
+        value: production
+      # Set this to your allowed origins (comma-separated) for Flutter Web or other clients.
+      # For mobile apps, you can omit this (CORS is browser-only), but it's still safer to set.
+      # - key: CORS_ORIGINS
+      #   value: https://your-frontend.example.com

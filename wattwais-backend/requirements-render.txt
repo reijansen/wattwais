@@ -1,0 +1,14 @@
+fastapi==0.111.1
+uvicorn==0.30.3
+pydantic==2.7.4
+
+# Pickle compatibility (model was trained with sklearn 1.6.1).
+scikit-learn==1.6.1
+joblib==1.4.2
+
+# Feature building
+numpy==2.2.6
+pandas==2.2.3
+
+# Model runtime
+xgboost==3.2.0
